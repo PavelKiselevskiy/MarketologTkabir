@@ -1,0 +1,436 @@
+@media (max-width: 1024px) {
+ 
+  :root {
+    --font-size-text: 20px;
+    --font-size-title-2: 34px;
+    --section-gap: 70px;
+  }
+ 
+  .person-paragraf {
+    font-size: 55px;
+  }
+
+  .cirles-result {
+    flex-direction: column;
+  }
+
+  .circle:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .services-block {
+    flex-direction: column;
+  }
+  
+  .services-block-par {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:baseline;
+    max-width: 100%;
+    min-height: 315px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 0;
+    padding-left: 50px;
+}
+
+
+.services-block-par__description-two, .services-block-par__description-three {
+  margin-top: 70px;
+}
+
+.services-title-block {
+  max-width: 800px;
+}
+
+.services-block-par__description, .services-block-par__description-first {
+  max-width: 800px;
+}
+
+.services-first {
+  padding-right: 10px;
+}
+
+.services-block-par__footer {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.services-block-par__price {
+  max-width: 145px;
+}
+
+.contacts-section {
+  flex-direction: column;
+}
+
+.contacts-circle:not(:last-child) {
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.hystmodal__window {
+  max-width: 900px;
+  
+}
+
+.popup__text{
+  font-size: var(--font-size-text);
+}
+
+.benefit-text {
+  font-size: 40px;
+}
+
+.services-title-block {
+  font-size: 24px;
+}
+
+.benefit-section-right__block {
+  width: 300px;
+  height: 100px;
+}
+}
+
+@media (max-width: 900px) {
+  
+  .hystmodal {
+    left: 0;
+  }
+
+  :root {
+    --font-size-text:18px;
+  }
+  
+  .person-paragraf {
+    font-size: 48px;
+    line-height: 50px
+  }
+
+  .person-paragraf-distance {
+    margin-left: 15px;
+  }
+
+  .person-paragraf-distance-2 {
+    margin-left: 50px;
+  }
+
+  .hystmodal__window {
+    max-width: 600px;   
+  }
+}
+
+@media (max-width: 676px) {
+ 
+  :root {
+    --section-gap: 50px;
+    --font-size-text: 16px;
+    --font-size-title-2: 28px;
+  }
+
+  .header-container {
+    min-height: 60px;
+  }
+
+  .header-nav__item:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .header-soc-link-nav-item:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .person-paragraf {
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  .person-title {
+    line-height: 15px;
+  }
+
+  .grey-title {
+    font-size: 14px;
+  }
+
+  .about-us-title {
+    font-size: 34px;
+  }
+
+  .number-text {
+    font-size: 34px;
+  }
+
+  .number-text-description {
+    font-size: 16px;
+  }
+
+  .circle {
+    width: 310px;
+    height: 310px;
+  }
+
+  .about-us-circle-textprice {
+    font-size: 25px;
+  }
+
+  .method-content {
+    line-height: 34px;
+  }
+
+  .method-title {
+    margin-bottom: 30px;
+  }
+
+  .method-img {
+    margin-bottom: 30px;
+  }
+
+  .benefit-title  {
+    margin-bottom: 30px;
+  }
+
+  .benefit-text {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .benefit-section-right__block {
+    width: 250px;
+    height: 80px;
+  }
+
+  .benefit-section-right__text {
+    line-height: 20px;
+  }
+
+  .services-title-block {
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 450px;
+  }
+
+  .services-block-description {
+    line-height: 20px;
+  }
+
+  .services-first__link {
+    font-size: 20px;
+  }
+
+
+  .services-block-par__description {
+    line-height: 20px;
+    font-size: 16px;
+  }
+
+  .services-block-par__price {
+    font-size: 18px;
+  }
+
+  .contacts-title {
+    font-size: 34px;
+    line-height: 30px;
+  }
+
+  .contacts-circle {
+    width: 310px;
+    height: 310px;
+  }
+
+  .note {
+    max-width: 300px;
+  }
+
+  .footer-container {
+    padding-top: 30px;
+    min-height: 180px;
+  } 
+
+  .footer-link {
+    line-height: 10px;
+  }
+
+  .footer-content {
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+  .footer-description {
+    margin-bottom: 7px;
+  }
+
+  .popup__title {
+    max-width: 400px;
+    font-size: 24px;
+  }
+
+  .hystmodal__window {
+    max-width: 500px;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  
+  :root {
+    --section-gap: 50px;
+    --font-size-text: 14px;
+    --font-size-title-2: 24px;
+  }
+
+  .header-container {
+    padding-top: 20px;
+    flex-direction: column;
+  }
+
+  .person-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .person-leftpanel {
+    width: 100%;
+    align-items: center;
+  }
+
+  .person-paragraf {
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  .person-paragraf-distance {
+    margin-left: -30px;
+  }
+
+  .person-paragraf-distance-2 {
+    margin-bottom: 20px;
+  }
+
+  .person-title {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  .person-rightpanel {
+    margin-right: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .main-fs-text {
+    line-height: 30px;
+  }
+
+  .benefit-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benefit-section-left {
+    width: 320px;
+    height: 482px;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+
+  .benefit-section-right {
+    width: 100%;
+    align-items: center;
+  }
+
+  .benefit-section-right__block {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  .benefit-section-right__text-distance-1, .benefit-section-right__text-distance-2 {
+    margin-left: 0;
+  }
+
+  .benefit-section {
+    margin-bottom: 0;
+  }
+
+  .top-footer, .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-nav {
+    margin-right: 0;
+  }
+
+  .footer-container {
+    padding-bottom: 15px;
+  }
+
+  .note {
+    margin-bottom: 10px;
+    }
+
+  .services-first {
+    padding-left: 20px;
+    border-radius: 20px;
+  }
+
+  .services-block-par {
+    padding-left: 20px;
+    border-radius: 20px;
+  }  
+
+  .services-block-par__link {
+    font-size: 14px;
+    min-width: 124px;
+    background-position: 99px -4px;
+  }
+
+  .services-block-par__link:hover, .services-block-par__link:focus {
+    background-position: 105px -4px;
+  }
+
+  .services-first__link {
+    font-size: 14px;
+    min-width: 100px;
+    background-position: 74px -6px;
+}
+
+.services-first__link:hover, .services-first__link:focus {
+  background-position: 79px -6px;
+}
+
+.services-block-description, .services-block-par__description {
+  max-width: 315px;
+}
+
+.hystmodal__window {
+  max-width: 400px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.popup__title {
+  max-width: 320px;
+}
+
+.hystmodal {
+  left: 0;
+}
+
+}
+
+@media (max-width: 400px) {
+
+  .hystmodal__window {
+    max-width: 320px;
+  }
+
+  .mymodal {
+    min-width: 290px;
+  }
+
+}
